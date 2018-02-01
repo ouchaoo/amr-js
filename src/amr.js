@@ -120,7 +120,7 @@ export default class BenzAMRRecorder {
       xhr.open('GET', url, true);
       xhr.responseType = 'arraybuffer';
       xhr.onload = () => {
-        resolve(this.response);
+        resolve(xhr.response);
       };
       xhr.onerror = () => {
         reject(new Error(`Failed to fetch ${url}`));
