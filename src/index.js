@@ -8,4 +8,4 @@
  * each engineer has a duty to keep the code elegant
  */
 
-module.exports = require('./BenzAMRRecorder.js').default;
+module.exports = require('./amr.js').default;
