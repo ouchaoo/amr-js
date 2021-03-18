@@ -1,6 +1,6 @@
 {
   "name": "amr-js",
-  "version": "0.0.299911111",
+  "version": "0.0.299911111999",
   "description": "amr 音频 js 播放（微信语音所用的格式）",
   "main": "lib/index.js",
   "files": [
